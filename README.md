@@ -2,6 +2,8 @@
 
 Simple example of how to use the geolocation Web API
 
+Demo Online: https://quasar-geolocation.surge.sh/#/
+
 ## Install the dependencies
 ```bash
 yarn
@@ -11,6 +13,11 @@ yarn
 ```bash
 quasar dev
 ```
+
+### Print
+
+[![N|Solid](https://github.com/patrickmonteiro/quasar-geolocation-example/blob/master/docs/print.png?raw=true)](https://quasar-geolocation.surge.sh/#/)
+
 
 ## Donations
 
