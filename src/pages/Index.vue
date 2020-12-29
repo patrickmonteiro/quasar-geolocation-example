@@ -11,10 +11,10 @@
     <div class="row justify-center">
       <div class="col-10 text-center">
         <p>
-          Latitude: {{ this.latitude }}
+          Latitude: {{ latitude }}
         </p>
         <p>
-          Longitude: {{ this.longitude }}
+          Longitude: {{ longitude }}
         </p>
       </div>
     </div>
