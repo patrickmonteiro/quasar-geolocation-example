@@ -3,7 +3,7 @@
     <div class="row justify-center">
       <div class="col-6 text-center">
         <img
-          width="400"
+          :width="$q.platform.is.desktop ? '400' : '200'"
           alt="Quasar logo"
           src="~assets/map2.svg"
         >
