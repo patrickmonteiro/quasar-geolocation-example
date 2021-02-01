@@ -1,8 +1,8 @@
 <template>
-  <q-page padding>
+  <q-page>
     <l-map
       v-if="ready"
-      style="height: 90vh"
+      style="height: calc(100vh - 50px)"
       :zoom="zoom"
       :center="center"
     >
