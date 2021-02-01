@@ -37,8 +37,8 @@ export default {
       picoleLatLng: [],
       ready: false,
       icon: L.icon({
-        iconUrl: 'picole.png',
-        iconSize: [40, 40],
+        iconUrl: 'picole3.png',
+        iconSize: [50, 50],
         iconAnchor: [16, 37]
       })
     }

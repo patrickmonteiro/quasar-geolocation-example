@@ -1,12 +1,17 @@
 <template>
   <q-page>
     <div class="row justify-center">
-      <div class="col-6 text-center">
-        <img
-          :width="$q.platform.is.desktop ? '400' : '200'"
-          alt="Quasar logo"
-          src="~assets/map2.svg"
-        >
+      <div
+        class="text-center"
+        :class="$q.platform.is.desktop ? 'col-4' : 'col-8'"
+      >
+        <lottie-player
+          src="https://assets9.lottiefiles.com/packages/lf20_jqpju2hc.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        ></lottie-player>
       </div>
     </div>
     <div class="row justify-center">
@@ -21,8 +26,8 @@
     </div>
     <div class="row justify-center q-mt-lg">
       <q-btn
-        class="col-8"
-        color="purple-6"
+        :class="$q.platform.is.desktop ? 'col-4' : 'col-8'"
+        color="indigo"
         label="Minha localizacao"
         push
         size="lg"
