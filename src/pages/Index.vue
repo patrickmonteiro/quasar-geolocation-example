@@ -3,7 +3,7 @@
     <div class="row justify-center">
       <div
         class="text-center"
-        :class="$q.platform.is.desktop ? 'col-4' : 'col-8'"
+        :class="$q.screen.lt.sm ? 'col-8' : 'col-4'"
       >
         <lottie-player
           src="https://assets9.lottiefiles.com/packages/lf20_jqpju2hc.json"
@@ -26,7 +26,7 @@
     </div>
     <div class="row justify-center q-mt-lg">
       <q-btn
-        :class="$q.platform.is.desktop ? 'col-4' : 'col-8'"
+        :class="$q.screen.lt.sm ? 'col-8' : 'col-4'"
         color="indigo"
         label="Minha localizacao"
         push

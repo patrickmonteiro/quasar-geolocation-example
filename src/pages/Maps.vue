@@ -73,7 +73,7 @@ export default {
         {
           lat: (coords.latitude + -0.0005),
           log: (coords.longitude + -0.0005),
-          info: 'Magnu'
+          info: 'Magnum'
         },
         {
           lat: (coords.latitude + 0.0010),
